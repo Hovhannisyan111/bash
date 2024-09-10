@@ -161,3 +161,41 @@
 #
 #power $n1 $n2
 
+#!/bin/bash
+
+
+#prime(){
+#        local num=$1
+#        local prime=true
+#
+#        if [ $num -lt 2 ];then
+#                prime=false
+#        else
+#                for ((i=2; i<=num/2; i++));do
+#                        if [ $((num % i)) -eq 0 ];then
+#                                prime=false
+#                                break
+#                        fi
+#                done
+#        fi
+#
+#        if $prime;then
+#                echo "$num is prime"
+#        else
+#                echo "$num is not prime"
+#        fi
+#}
+#
+#read -p "Enter a number to check if it's PRIME: " n
+#prime $n
+
+
+#!/bin/bash
+#
+#read -p "Enter a string: " str
+#read -p "Enter a start: " start1
+#read -p "Enter a len: " len
+#
+#sub=${str:start1:len}
+#echo "Substring from position $start1 with length $len in '$str' is: $sub"
+
